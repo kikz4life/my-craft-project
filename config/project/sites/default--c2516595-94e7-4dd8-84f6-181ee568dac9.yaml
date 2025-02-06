@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'My Craft Project Ddev'
+primary: true
+siteGroup: b57ea551-cea1-4703-a6a6-bbfdbdb14712 # My Craft Project Ddev
+sortOrder: 1

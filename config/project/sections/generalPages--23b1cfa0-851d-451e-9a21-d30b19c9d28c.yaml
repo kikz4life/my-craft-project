@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: generalPages
+name: 'General Pages'
+propagationMethod: all
+siteSettings:
+  c2516595-94e7-4dd8-84f6-181ee568dac9: # My Craft Project Ddev
+    enabledByDefault: true
+    hasUrls: true
+    template: general.twig
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 2
+  uid: bfddfa2c-880a-4940-a14b-35ee78edd1e4
+type: structure

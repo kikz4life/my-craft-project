@@ -1,0 +1,129 @@
+field: 06f475c5-4b72-439d-9350-b55fd7f443a4 # Riders
+fieldLayouts:
+  119fbc86-03df-4f83-ba9c-74f970703cb4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0c9dba7d-870f-4374-a3a8-39c93a3646c2 #  Photo
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9233c1e4-0a73-4a2d-9299-20a0571285e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ba9b36b8-2f3c-4bc0-9d64-fdb6ed2eec27 # Full Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c709fb3f-7c0e-4278-b6de-b6bdee7d23ae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f6f3e796-7db9-4581-9841-a7391eb55714 # Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 88b8d7e2-f303-4a2e-a0c3-0f8dd279e9fa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 42b27dcc-e274-40c3-852a-ddad60f90d2d
+        userCondition: null
+fields:
+  0c9dba7d-870f-4374-a3a8-39c93a3646c2: #  Photo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: photo
+    instructions: null
+    name: ' Photo'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:81f92cc9-472a-4040-bad6-9813606aee7b' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:81f92cc9-472a-4040-bad6-9813606aee7b' # Uploads
+      restrictedLocationSubpath: null
+      selectionLabel: 'Add a photo'
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:81f92cc9-472a-4040-bad6-9813606aee7b' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  ba9b36b8-2f3c-4bc0-9d64-fdb6ed2eec27: # Full Name
+    columnSuffix: fbbhnexu
+    contentColumnType: text
+    fieldGroup: null
+    handle: fullName
+    instructions: null
+    name: 'Full Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f6f3e796-7db9-4581-9841-a7391eb55714: # Description
+    columnSuffix: xctjwasm
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: null
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 2
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: rider
+name: Rider
+sortOrder: 1

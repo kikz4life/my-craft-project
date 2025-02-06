@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storiesListing
+name: 'Stories Listing'
+propagationMethod: all
+siteSettings:
+  c2516595-94e7-4dd8-84f6-181ee568dac9: # My Craft Project Ddev
+    enabledByDefault: true
+    hasUrls: true
+    template: stories/index.twig
+    uriFormat: stories
+type: single

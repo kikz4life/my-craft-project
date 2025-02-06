@@ -1,0 +1,83 @@
+fieldLayouts:
+  dd55f73c-e4c5-46be-bf59-e0693a81c504:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 51fda16d-b2c7-4427-bbbf-8d555cbe72d7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 870dd208-b00b-43f6-8de6-93d8902a75fc # Photos
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 635ce83e-7595-432a-8630-77793c28772e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 292e6d57-4630-4195-baf6-130290e26951 # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77907765-5edd-4a55-aca8-d102f103a07b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1595703e-8a09-4d31-8c15-6699d96dfdc1 # Short Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86f6eb62-05cf-43c9-a53a-c1417149a984
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: cf42b4ed-b006-4fa7-a8c3-3645bb694e2c
+        userCondition: null
+handle: stories
+hasTitleField: true
+name: Stories
+section: 1c18f5e4-380b-419e-ab0c-01dfb1af2554 # Stories
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

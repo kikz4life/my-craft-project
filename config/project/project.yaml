@@ -1,0 +1,71 @@
+dateModified: 1738857182
+email:
+  fromEmail: deanmon_you@yahoo.com
+  fromName: 'My Craft Project Ddev'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0bbeffb9-c922-420d-9336-ee718fdd2f7e: all # all
+    0c9dba7d-870f-4374-a3a8-39c93a3646c2: ' Photo' #  Photo
+    0ff99cd7-8964-4c00-a2ec-09ee0f738eb5: Hero # Hero
+    1a67d9f5-cdd5-4d47-8a76-a3f834ceff7e: Slider # Slider
+    1c18f5e4-380b-419e-ab0c-01dfb1af2554: Stories # Stories
+    1ec93b34-697c-4f28-8f9b-41f62c311bcd: 'Public Schema' # Public Schema
+    2b199302-7b52-4558-a1b5-6fb277251421: Avatar # Avatar
+    3f8b2e8b-c4cf-4fa7-9a57-5e1de39ebbd2: Stories # Stories
+    5aca6a21-cb1a-4a27-8100-eca57392c30c: 'Custom ckEditor' # Custom ckEditor
+    6e74cb28-f0ed-4e05-a4fc-b88f67723335: Header # Header
+    06f475c5-4b72-439d-9350-b55fd7f443a4: Riders # Riders
+    7d6c1050-4ca9-4968-942b-fa8dec2496da: 'Featured Story' # Featured Story
+    8e43d627-c114-4f43-9d86-1c57c3cce9a3: 'General Pages' # General Pages
+    23b1cfa0-851d-451e-9a21-d30b19c9d28c: 'General Pages' # General Pages
+    26cb2bf3-60f4-41d4-a03c-6a122812f2f5: 'Stories Listing' # Stories Listing
+    32f70235-9cb4-48ae-b7e7-883c5e765453: Footer # Footer
+    39a8b8e6-eaa1-4c20-a211-d620f356aade: Home # Home
+    71ea1c28-b9da-4db1-acea-ed17968c75a7: Common # Common
+    77c562cf-30a9-44f8-8787-d241d5e003a6: Rider # Rider
+    81f92cc9-472a-4040-bad6-9813606aee7b: Uploads # Uploads
+    292e6d57-4630-4195-baf6-130290e26951: 'Rich Text' # Rich Text
+    0339b311-c95b-43a3-83ae-35d06c278aba: Home # Home
+    511d6ba3-7eee-47b7-8eb9-c2525fcf0e0d: 'Home Page' # Home Page
+    870dd208-b00b-43f6-8de6-93d8902a75fc: Photos # Photos
+    09848d70-2372-4aa8-ada8-084a1db84bdb: 'Hero Title' # Hero Title
+    498141fa-b1e5-43be-a5fd-bc8505d5c635: 'Stories Listing' # Stories Listing
+    1595703e-8a09-4d31-8c15-6699d96dfdc1: 'Short Description' # Short Description
+    ac3b705b-6e50-4392-8ad9-ad23c47a21f3: 'Hero Image' # Hero Image
+    ae85047d-7e89-41d4-97f0-92cf8d37e0c0: 'Nav Links' # Nav Links
+    b57ea551-cea1-4703-a6a6-bbfdbdb14712: 'My Craft Project Ddev' # My Craft Project Ddev
+    ba1e3db7-2e5d-4420-b7d5-fe34ffd42359: Link # Link
+    ba9b36b8-2f3c-4bc0-9d64-fdb6ed2eec27: 'Full Name' # Full Name
+    c2516595-94e7-4dd8-84f6-181ee568dac9: 'My Craft Project Ddev' # My Craft Project Ddev
+    d5b6f376-41fc-4d1e-9a2c-0b0959558f9d: 'Content Image' # Content Image
+    d5719692-ace7-4d64-86cf-6dcd4bced15c: 'Link Text' # Link Text
+    dd203347-2667-4a09-a9fb-9d19925ddc43: 'Riders Intro Content' # Riders Intro Content
+    e22608f9-77df-4ecf-a8f3-805fa38e65bd: 'Link Destination' # Link Destination
+    f6f3e796-7db9-4581-9841-a7391eb55714: Description # Description
+    fe9c479b-bded-463e-97b1-de68e659620f: Simple # Simple
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: 'My Craft Project Ddev'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

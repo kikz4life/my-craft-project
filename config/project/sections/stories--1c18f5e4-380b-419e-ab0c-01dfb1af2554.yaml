@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: stories
+name: Stories
+propagationMethod: all
+siteSettings:
+  c2516595-94e7-4dd8-84f6-181ee568dac9: # My Craft Project Ddev
+    enabledByDefault: false
+    hasUrls: true
+    template: stories/_entry.twig
+    uriFormat: 'stories/{slug}'
+type: channel

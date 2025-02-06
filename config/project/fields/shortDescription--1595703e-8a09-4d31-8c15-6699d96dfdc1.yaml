@@ -1,0 +1,19 @@
+columnSuffix: lvxqtxlp
+contentColumnType: text
+fieldGroup: 71ea1c28-b9da-4db1-acea-ed17968c75a7 # Common
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

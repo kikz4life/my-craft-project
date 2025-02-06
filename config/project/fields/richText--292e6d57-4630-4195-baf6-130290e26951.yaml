@@ -1,0 +1,23 @@
+columnSuffix: shtlwfjk
+contentColumnType: text
+fieldGroup: 71ea1c28-b9da-4db1-acea-ed17968c75a7 # Common
+handle: richText
+instructions: null
+name: 'Rich Text'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  ckeConfig: 0bbeffb9-c922-420d-9336-ee718fdd2f7e # all
+  columnType: text
+  defaultTransform: d5b6f376-41fc-4d1e-9a2c-0b0959558f9d # Content Image
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups: '*'
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field
